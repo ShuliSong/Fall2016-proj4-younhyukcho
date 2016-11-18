@@ -8,9 +8,9 @@ Term: Fall 2016
 
 + [Data link](https://courseworks2.columbia.edu/courses/11849/files/folder/Project_Files?preview=763391)-(**courseworks login required**)
 + [Data description](doc/readme.html)
-+ Contributor's name:
-+ Projec title: Lorem ipsum dolor sit amet
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Contributor's name: YounHyuk Cho
++ Projec title: Lyric recommendation system using collaborative filtering
++ Project summary: In this project, I tried to build recommendation system using two methods: 1. Poisson regression to directly predict number of counts for each words. 2. Collaborative System based on similarity matrix. First method I tried was Poisson regression using mean, median and standard deviation of 15 features included in our data. The result obtained using poisson regression (also tried quassi poisson, negative binomial, penalized poisson regression, zero-inflated poisson) did not seemed to be very realiable because of convergence issue. Second method was using collaborative learning method using cosine distance(also tried euclidean but cosinde distance seemed to be giving better result when we compared their respective predictive rank sum) as the measure of similarity. We used the 15 most similar values and computed average of the counts and ranked them accordingly. PoissonRegression.r-poisson regression. Similarity.r-collaborative filtering. main.r-applied collaborative filtering on our test data set of 100 new songs.   
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
