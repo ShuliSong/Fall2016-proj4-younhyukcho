@@ -73,7 +73,6 @@ sort(y_test[1,],decreasing=T)[1:50]
 a<-sort(count_matrix[,1],decreasing=T,index.return=T)$ix[1:50]
 colnames(y_test)[a]
 
-pred_rank_sum<-
 
 
 
